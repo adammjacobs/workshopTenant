@@ -6,6 +6,7 @@
         "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant_v1.json",
 	"runType": "schedule",
 	"schedule": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant%20Schedule_v1.json"
+    },
     {
         "name": "Remove Data Files",
 	"description": "Removes any unauthorized data files every hour",
