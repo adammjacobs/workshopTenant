@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Set Up Tenant",
+	"description": "Sets up tenant with appropriate spaces, admin roles, and automations.  Will also check for new updates to configuration.",
+	"version": "v1"
+    }
+]
