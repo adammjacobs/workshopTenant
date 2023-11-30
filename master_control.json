@@ -4,13 +4,15 @@
 	"description": "Resets the tenant by removing users and their content",
         "version": "v1",
         "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant_v1.json",
-	"runType": "schedule"
+	"runType": "schedule",
+	"schedule": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant%20Schedule_v1.json"
     {
         "name": "Remove Data Files",
 	"description": "Removes any unauthorized data files every hour",
         "version": "v1",
         "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Remove%20Data%20Files_v1.json",
-	"runType": "schedule"
+	"runType": "schedule",
+	"schedule": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Remove%20Data%20Files%20Schedule_v1.json"
     },   
     {
         "name": "Recall Applications",
