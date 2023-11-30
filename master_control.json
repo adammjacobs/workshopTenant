@@ -4,9 +4,7 @@
 	"description": "Resets the tenant by removing users and their content",
         "version": "v1",
         "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant_v1.json",
-	"runType": "schedule",
-	"schedule": "[ { "id": "6c031980-8fad-11ee-8d40-1deb9408c650", "startAt": "2023-11-05 17:00:06", "stopAt": null, "lastStartAt": "2023-12-03T22:00:06.000000Z", "interval": 604800, "timezone": "America/New_York" } ]"
-    },
+	"runType": "schedule"
     {
         "name": "Remove Data Files",
 	"description": "Removes any unauthorized data files every hour",
