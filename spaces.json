@@ -18,7 +18,7 @@
 	"description": "Data"
     },
     {
-	"id" 40,
+	"id": 40,
         "name": "Workshop Stage",
 	"type": "shared",
 	"description": "Stage"
