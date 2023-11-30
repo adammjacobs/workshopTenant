@@ -1,24 +1,24 @@
 [
     {
-	"id": 1,
+	"id": 10,
         "name": "Workshop",
 	"type": "managed",
 	"description": "Main"
     },
     {
-	"id": 2,
+	"id": 20,
         "name": "Published Apps",
 	"type": "managed",
 	"description": "Publish"
     },
     {
-	"id": 3,
+	"id": 30,
         "name": "Workshop Data",
 	"type": "shared",
 	"description": "Data"
     },
     {
-	"id" 4,
+	"id" 40,
         "name": "Workshop Stage",
 	"type": "shared",
 	"description": "Stage"
