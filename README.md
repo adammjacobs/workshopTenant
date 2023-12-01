@@ -47,3 +47,5 @@ Any application in the Workshop Stage space that has already been distributed to
 This is the space that is designed strictly for data connections and data files.  Workshop users will only have the role of "data consumer" for this space and cannot create any new content here.  The purpose of this space is to have control over the data sources users access during the workshop.
 ### Publish Apps
 This is an optional managed space.  The purpose of this space is to have a landing zone for users to publish apps if the desire is to demonstrate how someone publishes an application.  If there is no step within your workshop where publishing takes place, this space is not required and can be removed after running the "Set Up Tenant" automation.
+## Automations
+The automations installed are instrumental in reducing the workload to maintain a workshop tenant.
