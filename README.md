@@ -65,5 +65,5 @@ This is an optional automation that is recommended if you will be distributing a
 Use the following as a base checklist to prep for a new workshop.
 1) Set a new alias hostname.  Using distinct hostnames for each new workshop can allow you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
 2) Check that all necessary applications are published in "Workshop"
-3) Check that any applications that should be distributed to users personal spaces have the tag "distribute"
+3) Check that any applications from "Workshop Stage" that should be distributed to users personal spaces have the tag "distribute"
 4) Check that all data connections needed for the workshop can fetch the needed data
