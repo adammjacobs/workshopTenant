@@ -30,17 +30,10 @@
 	"runType": "trigger"
     }, 
     {
-        "name": "Auto-Distribute App",
+        "name": "Auto Assign Roles and Distribute App",
 	"description": "Distributes apps with the distribute tag to users as they log into the tenant",
         "version": "v1",
-        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Auto-Distribute%20App_v1.json",
-	"runType": "webhook"
-    }, 
-    {
-        "name": "Auto Assign",
-	"description": "Assigns users the appropriate roles as they log into the tenant",
-        "version": "v1",
-        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Auto%20Assign_v1.json",
+        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Auto%20Assign%20Roles%20and%20Distribute%20App.json",
 	"runType": "webhook"
     }
 ]
