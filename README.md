@@ -29,7 +29,7 @@ This automation will configure your spaces, assign your admins special priviledg
 - Auto Assign Roles and Distribute App
 - Remove Data Files
 
-See the "Automations" section for description of each automation and its purpose.
+See the "Automations" section for description of each automation and its purpose. NOTE: if the automation appears to hang for longer than 30 seconds without completing, refresh the browser page.  Options that need to be selected could be hidden.
 
 ## Spaces
 The "Set Up Tenant" automation configures 4 spaces used to run the workshop.  3 of these spaces are required and a 4th is optional and can be deleted if desired.  Please do NOT change the description of any spaces as automations do reference these descriptions to take appropriate actions.  Additional spaces can be added by Admins and will not be deleted by automations.
