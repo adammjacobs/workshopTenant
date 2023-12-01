@@ -63,7 +63,7 @@ This is an optional automation that is recommended if you will be distributing a
 This is an optional automation that is recommended if you will be distributing applications to the personal spaces of workshop participants.  It is recommended because there is always a chance of accidentally distributing the wrong application to personal spaces.  This can avoid confusion and declutter the personal spaces of your participants.  When this automation is installed, a link to execute the automation quickly is also installed in the "Workshop Stage" space.  This is important as this means non-owners of the automation can execute the automation, but keeping it in the "Workshop Stage" space ensures it is still only Admins that can execute the automation.
 ## Preparing for a new workshop
 Use the following as a base checklist to prep for a new workshop.
-1) Set a new alias hostname.  Using distinct hostnames for each new workshop can allow you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
+1) Set a new alias hostname.  Using distinct hostnames for each new workshop allows you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
 2) Check that all necessary applications are published in "Workshop"
 3) Check that any applications from "Workshop Stage" that should be distributed to users personal spaces have the tag "distribute"
 4) Check that all data connections needed for the workshop can fetch the needed data
