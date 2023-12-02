@@ -18,9 +18,9 @@ See https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/
 
 ## Running the "Set Up Tenant" Automation
 This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation.  This is designed to be run manually as needed, either for initial set up or to check for updates.  Take the following steps to install the set up automation:
-1) Download the "Set Up Tenant_v1.json"
+1) Download the "Set Up Tenant_v2.json"
 2) As the user who will be the tenant admin, create a new automation and choose the "Blank" template
-3) Name that automation "Set Up Tenant_v1" and click Save
+3) Name that automation "Set Up Tenant_v2" and click Save
 4) Right-click on the automation canvas and select "Upload workspace" then select the "Set Up Tenant" JSON
 5) Prior to the first run, click on the 3rd block titled "Get Tenant Name and Region" (this block may appear in red).
 6) On the right, configure the connection (will be highlighted in red) using the client key and secret key from your OAuth client.
