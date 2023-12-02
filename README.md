@@ -29,6 +29,8 @@ This automation will configure your spaces, assign your admins special privilege
 - Auto Assign Roles and Distribute App
 - Remove Data Files
 
+![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/install-update-automations.png?raw=true)
+
 See the "Automations" section for description of each automation and its purpose.  
 
 NOTE: If the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
@@ -59,6 +61,7 @@ Any application in the Workshop Stage space that has already been distributed to
 The automations installed are instrumental in reducing the workload to maintain a workshop tenant and saves admins a lot of time and energy.  Here is a breakdown of those automations.
 ### Set Up Tenant ⛓️
 This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation. \
+![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/setuptenant_updateavailable.png?raw=true) \
 NOTE: The user running this automation must also be the owner of all other automations below in order to avoid duplicate automations running in your environment.
 ### Reset Tenant ⛓️
 This is a required automation.  This resets the tenant on a schedule (default is weekly on Sundays at 2200 UTC, but this can be changed by selecting the "Start" block and adjusting the schedule.  The reset includes removing the alias hostname (more on why below), deleting the workshop users who do not have admin roles, and deleting their created content.
