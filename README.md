@@ -29,7 +29,7 @@ This automation will configure your spaces, assign your admins special privilege
 - Auto Assign Roles and Distribute App
 - Remove Data Files
 
-See the "Automations" section for description of each automation and its purpose. NOTE: if the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
+See the "Automations" section for description of each automation and its purpose.\ NOTE: if the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
 
 ## Spaces
 The "Set Up Tenant" automation configures 4 spaces used to run the workshop - "Workshop", "Workshop Stage", "Workshop Data", and "Publish Apps".  Of these four spaces, three are required and only "Publish Apps" is optional and can be deleted if desired.  Please do NOT change the description of any spaces as automations do reference these descriptions to take appropriate actions.  Additional spaces can be added by Admins and will not be deleted by automations.
@@ -56,7 +56,8 @@ Any application in the Workshop Stage space that has already been distributed to
 ## Automations
 The automations installed are instrumental in reducing the workload to maintain a workshop tenant and saves admins a lot of time and energy.  Here is a breakdown of those automations.
 ### Set Up Tenant ⛓️
-This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation.
+This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation.\
+NOTE: The user running this automation must also be the owner of all other automations below in order to avoid duplicate automations running in your environment.
 ### Reset Tenant ⛓️
 This is a required automation.  This resets the tenant on a schedule (default is weekly on Sundays at 2200 UTC, but this can be changed by selecting the "Start" block and adjusting the schedule.  The reset includes removing the alias hostname (more on why below), deleting the workshop users who do not have admin roles, and deleting their created content.
 ### Remove Data Files ⛓️
