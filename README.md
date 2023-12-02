@@ -23,7 +23,8 @@ This automation will configure your spaces, assign your admins special privilege
 3) Name that automation "Set Up Tenant_v2" and click Save
 4) Right-click on the automation canvas and select "Upload workspace" then select the "Set Up Tenant" JSON
 5) Prior to the first run, click on the 3rd block titled "Get Tenant Name and Region" (this block may appear in red).
-6) On the right, configure the connection (will be highlighted in red) using the client key and secret key from your OAuth client.
+6) On the right, configure the connection (will be highlighted in red) using the client key and secret key from your OAuth client.  When complete, the block connection will look like this: \
+   ![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/configureblock.png?raw=true) 
 7) Click "Run" at the top of the page and follow the prompts to choose which automations to install and configure. The following automations are required to be installed:
 - Reset Tenant
 - Auto Assign Roles and Distribute App
