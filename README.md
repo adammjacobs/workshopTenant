@@ -55,21 +55,21 @@ Any application in the Workshop Stage space that has a tag "distribute" will be 
 Any application in the Workshop Stage space that has already been distributed to personal spaces can be recalled by including the tag "recall".  When applying this tag and manually running the "Recall Applications" automation, any application that matches the name of the app with the "recall" tag will be deleted from all personal spaces and then the "recall" tag will be automatically removed.  This is useful in the case of distributing the wrong application by mistake.
 ## Automations
 The automations installed are instrumental in reducing the workload to maintain a workshop tenant and saves admins a lot of time and energy.  Here is a breakdown of those automations.
-### Set Up Tenant
+### Set Up Tenant ⛓️
 This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation.
-### Reset Tenant
+### Reset Tenant ⛓️
 This is a required automation.  This resets the tenant on a schedule (default is weekly on Sundays at 2200 UTC, but this can be changed by selecting the "Start" block and adjusting the schedule.  The reset includes removing the alias hostname (more on why below), deleting the workshop users who do not have admin roles, and deleting their created content.
-### Remove Data Files
+### Remove Data Files ⛓️
 This is a required automation to keep non-admins from storing their data in the workshop environment.  If there is a requirement during the workshop for users to load their own data sets into the environment, this can be disabled, but it is recommended to have all users access all necessary files via the "Workshop Data" space.  This automation is configured to run hourly by default, but can be changed by selecting the "Start" block and adjusting the schedule.
-### Auto Assign Roles and Distribute App
+### Auto Assign Roles and Distribute App ⛓️
 This is a required automation to automatically assign users to appropriate spaces when they first log into the environment for the workshop, as well as distribute any apps appropriately marked for distribution (See "Auto / Manual Distribute to personal spaces" above).  Users are given "Can View" and "Can Edit" roles to the "Workshop" space, "Can Consume Data" to the "Workshop Data" space, and "Can View", "Can Edit" and "Can Publish" roles to the "Publish Apps" space.  
-### Manually Distribute App
+### Manually Distribute App ⛓️
 This is an optional automation that is recommended if you will be distributing applications to the personal spaces of workshop participants.  It is recommended because there is always a chance of forgetting to add the "distribute" tag to an app prior to users logging in, and this allows you to distribute apps to existing users after the tag has been added.  When this automation is installed, a link to execute the automation quickly is also installed in the "Workshop Stage" space.  This is important as this means non-owners of the automation can execute the automation, but keeping it in the "Workshop Stage" space ensures it is still only Admins that can execute the automation.
-### Recall Applications
+### Recall Applications ⛓️
 This is an optional automation that is recommended if you will be distributing applications to the personal spaces of workshop participants.  It is recommended because there is always a chance of accidentally distributing the wrong application to personal spaces.  This can avoid confusion and declutter the personal spaces of your participants.  When this automation is installed, a link to execute the automation quickly is also installed in the "Workshop Stage" space.  This is important as this means non-owners of the automation can execute the automation, but keeping it in the "Workshop Stage" space ensures it is still only Admins that can execute the automation.
 ## Preparing for a new workshop
 Use the following as a base checklist to prep for a new workshop.
-1) Set a new alias hostname.  Using distinct hostnames for each new workshop allows you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
+1) Set a new alias hostname by going to Settings on the left-hand options menu.  Using distinct hostnames for each new workshop allows you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
 2) Check that all necessary applications are published in "Workshop"
 3) Check that any applications from "Workshop Stage" that should be distributed to users personal spaces have the tag "distribute"
 4) Check that all data connections needed for the workshop can fetch the needed data
