@@ -36,7 +36,7 @@ See the "Automations" section for description of each automation and its purpose
 
 NOTE: If the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
 
-## Spaces
+## Spaces 📄
 The "Set Up Tenant" automation configures 4 spaces used to run the workshop - "Workshop", "Workshop Stage", "Workshop Data", and "Publish Apps".  Of these four spaces, three are required and only "Publish Apps" is optional and can be deleted if desired.  Please do NOT change the description of any spaces as automations do reference these descriptions to take appropriate actions.  Additional spaces can be added by Admins and will not be deleted by automations.
 ### Workshop 📄
 This managed space is required and is used as a central place for workshop participants to access applications for exploring an app interface or creating their own sheets.  
@@ -66,7 +66,7 @@ Additionally, if you choose to install the "Manually Distribute App" automation,
 NOTE: The "distribute" tag is removed from the applications when the "Reset Tenant" automation is run and therefore needs to be re-applied before each workshop.
 #### Recall applications from personal spaces 🏷️
 Any application in the Workshop Stage space that has already been distributed to personal spaces can be recalled by including the tag "recall".  When applying this tag and manually running the "Recall Applications" automation, any application that matches the name of the app with the "recall" tag will be deleted from all personal spaces and then the "recall" tag will be automatically removed.  This is useful in the case of distributing the wrong application by mistake.
-## Automations
+## Automations ⛓️
 The automations installed are instrumental in reducing the workload to maintain a workshop tenant and saves admins a lot of time and energy.  Here is a breakdown of those automations.
 ### Set Up Tenant ⛓️
 This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation. \
