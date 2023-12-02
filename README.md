@@ -29,8 +29,9 @@ This automation will configure your spaces, assign your admins special privilege
 - Auto Assign Roles and Distribute App
 - Remove Data Files
 
-See the "Automations" section for description of each automation and its purpose. \ 
-NOTE: if the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
+See the "Automations" section for description of each automation and its purpose.  
+
+NOTE: If the automation appears to hang for longer than 30 seconds without completing, check the chronological block execution and if new blocks are not appearing at the end of the listed run, refresh the browser page.  Options that need to be selected might have been hidden by the browser and should appear after a refresh.
 
 ## Spaces
 The "Set Up Tenant" automation configures 4 spaces used to run the workshop - "Workshop", "Workshop Stage", "Workshop Data", and "Publish Apps".  Of these four spaces, three are required and only "Publish Apps" is optional and can be deleted if desired.  Please do NOT change the description of any spaces as automations do reference these descriptions to take appropriate actions.  Additional spaces can be added by Admins and will not be deleted by automations.
