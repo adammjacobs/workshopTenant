@@ -57,7 +57,7 @@ Auto publishing an app to a managed space is optional but can be useful if you r
 - To add / remove tags, you must click on the ellipses on the app in the hub and click "Rename".
 - You will need to add the tags "publish" and "space-<spaceName>" (e.g. "space-workshop").
 - When the tenant is reset, this will re-publish the application to the desired space listed in the tag automatically. \
-![alt text](raw=true)
+![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/tags.png?raw=true)
 #### Auto / Manual Distribute to personal spaces 🏷️
 Any application in the Workshop Stage space that has a tag "distribute" will be automatically distributed to users personal spaces when they first log into the environment for the workshop.  This is useful for workshops where working with data modeling is desired, and you wish to have a pre-built starting point.  
 
