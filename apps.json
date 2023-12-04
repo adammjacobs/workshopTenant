@@ -1,14 +1,18 @@
 [
     {
         "name": "Advanced User Workshop",
-	      "description": "The Qlik Hands On Workshop application which covers the basic visualizations in the first sheet, detail tables in the second, and additional ways to see your data which you can learn to enable your...",
+	"description": "The Qlik Hands On Workshop application which covers the basic visualizations in the first sheet, detail tables in the second, and additional ways to see your data which you can learn to enable your...",
         "version": "v1",
-        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Advanced%20User%20Workshop_v1.qvf"
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Advanced%20User%20Workshop_v1.qvf",
+	"publish": "No",
+	"distribute": "Yes"
     },
     {
         "name": "Qlik Hands on Workshop",
-	      "description": "The Qlik Hands On Workshop application which covers the basic visualizations in the first sheet, detail tables in the second, and additional ways to see your data which you can learn to enable your...",
+	"description": "The Qlik Hands On Workshop application which covers the basic visualizations in the first sheet, detail tables in the second, and additional ways to see your data which you can learn to enable your...",
         "version": "v1",
-        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Qlik%20Hands%20on%20Workshop_v1.qvf"
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Qlik%20Hands%20on%20Workshop_v1.qvf",
+	"publish": "Yes",
+	"distribute": "No"
     }
 ]
