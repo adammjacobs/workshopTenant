@@ -62,8 +62,6 @@ Auto publishing an app to a managed space is optional but can be useful if you r
 Any application in the Workshop Stage space that has a tag "distribute" will be automatically distributed to users personal spaces when they first log into the environment for the workshop.  This is useful for workshops where working with data modeling is desired, and you wish to have a pre-built starting point.  
 
 Additionally, if you choose to install the "Manually Distribute App" automation, you can trigger this automation to distribute the application to anyone who is already logged into the environment but does not yet have the application.  More information about this automation is in the "Automations" section.  
-
-NOTE: The "distribute" tag is removed from the applications when the "Reset Tenant" automation is run and therefore needs to be re-applied before each workshop.
 #### Recall applications from personal spaces 🏷️
 Any application in the Workshop Stage space that has already been distributed to personal spaces can be recalled by including the tag "recall".  When applying this tag and manually running the "Recall Applications" automation, any application that matches the name of the app with the "recall" tag will be deleted from all personal spaces and then the "recall" tag will be automatically removed.  This is useful in the case of distributing the wrong application by mistake.
 ## Automations ⛓️
@@ -73,9 +71,12 @@ This automation is designed to be run manually and not on a schedule because use
 ![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/setuptenant_updateavailable.png?raw=true) \
 NOTE: The user running this automation must also be the owner of all other automations below in order to avoid duplicate automations running in your environment.
 ### Reset Tenant ⛓️
-This is a required automation.  This resets the tenant on a schedule (default is weekly on Sundays at 2200 UTC, but this can be changed by selecting the "Start" block and adjusting the schedule.  
+This is a required automation.  This resets the tenant on a schedule (default is daily at midnight America/New York, but this can be changed by selecting the "Start" block and adjusting the schedule).
 
-The reset includes removing the alias hostname (more on why under "Preparing for a new workshop"), deleting the workshop users who do not have admin roles, and deleting their created content.
+By default, this will remove the alias hostname (more on why under "Preparing for a new workshop"), but you can right-click and "enable" the third block in the automation to have a hostname of 5 random letters and 3 random numbers set instead.  Do this if you would rather automate the process of setting the hostname than setting one yourself. \
+![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/hostname.png?raw=true)
+
+The reset includes deleting the workshop users who do not have admin roles, and deleting their created content.
 ### Remove Data Files ⛓️
 This is a required automation to keep non-admins from storing their data in the workshop environment.  If there is a requirement during the workshop for users to load their own data sets into the environment, this can be disabled, but it is recommended to have all users access all necessary files via the "Workshop Data" space.  
 
@@ -94,7 +95,7 @@ This is an optional automation that is recommended if you will be distributing a
 When this automation is installed, a link to execute the automation quickly is also installed in the "Workshop Stage" space.  This is important as this means non-owners of the automation can execute the automation, but keeping it in the "Workshop Stage" space ensures it is still only Admins that can execute the automation.
 ## Preparing for a new workshop
 Use the following as a base checklist to prep for a new workshop.
-1) Set a new alias hostname by going to Settings on the left-hand options menu.  Using distinct hostnames for each new workshop allows you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
+1) Set a new alias hostname (if you choose not to have that set automatically for you in the automation "Reset Tenant") by going to "Settings" on the left-hand options menu in the management console.  Using distinct hostnames for each new workshop allows you to re-use user names from your IDP without allowing previous users to log in again.  It is NOT recommended to send the base hostname to workshop users.
 2) Check that all necessary applications are published in "Workshop"
 3) Check that any applications from "Workshop Stage" that should be distributed to users personal spaces have the tag "distribute"
 4) Check that all data connections needed for the workshop can fetch the needed data
