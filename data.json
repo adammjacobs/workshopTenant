@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Categories.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Categories_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "Customers.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Customers_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "Customers.xlsx",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Customers_v1.xlsx",
+	      "type": "xlsx"
+    },
+    {
+        "name": "Employees.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Employees_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "Opps.xlsx",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Opps_v1.xlsx",
+	      "type": "xlsx"
+    },
+    {
+        "name": "Products.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Products_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "QlikSenseWorkshop.xlsx",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/QlikSenseWorkshop_v1.xlsx",
+	      "type": "xlsx"
+    },
+    {
+        "name": "Suppliers.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Suppliers_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "Workshop_Prediction_Apply.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Workshop_Prediction_Apply_v1.qvd",
+	      "type": "qvd"
+    },
+    {
+        "name": "Workshop_Prediction.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Workshop_Prediction_v1.qvd",
+	      "type": "qvd"
+    }
+]
