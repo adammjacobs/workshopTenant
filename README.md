@@ -73,7 +73,7 @@ NOTE: The user running this automation must also be the owner of all other autom
 ### Reset Tenant ⛓️
 This is a required automation.  This resets the tenant on a schedule (default is daily at midnight America/New York, but this can be changed by selecting the "Start" block and adjusting the schedule).
 
-By default, this will remove the alias hostname (more on why under "Preparing for a new workshop"), but you can right-click and "enable" the third block in the automation to have a hostname of 5 random letters and 3 random numbers set instead.  Do this if you would rather automate the process of setting the hostname than setting one yourself.  If you would rather keep the same alias hostname at all times, you can change the input in this variable block to be the desired alias hostname (format: "<hostname>.<region>.qlikcloud.com") \
+By default, this will remove the alias hostname (more on why under "Preparing for a new workshop"), but you can right-click and "enable" the third block in the automation to have a hostname of 5 random letters and 3 random numbers set instead.  Do this if you would rather automate the process of setting the hostname than setting one yourself.  If you would rather keep the same alias hostname at all times, you can change the input in this variable block to be the desired alias hostname (format: "hostname.region.qlikcloud.com") \
 ![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/hostname.png?raw=true)
 
 The reset includes deleting the workshop users who do not have admin roles, and deleting their created content.
