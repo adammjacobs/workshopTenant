@@ -1,1 +1,1 @@
-[ { "id": "6c031980-8fad-11ee-8d40-1deb9408c650", "startAt": "2023-11-05 17:00:06", "stopAt": null, "lastStartAt": "2023-12-03T22:00:06.000000Z", "interval": 604800, "timezone": "America/New_York" } ]
+[ { "id": "6c031980-8fad-11ee-8d40-1deb9408c650", "startAt": "2023-11-05 00:00:00", "stopAt": null, "lastStartAt": "2023-12-03T22:00:06.000000Z", "interval": 86400, "timezone": "America/New_York" } ]
