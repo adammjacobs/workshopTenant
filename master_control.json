@@ -2,8 +2,8 @@
     {
         "name": "Reset Tenant",
 	"description": "Resets the tenant by removing users and their content",
-        "version": "v1",
-        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant_v1.json",
+        "version": "v2",
+        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant_v2.json",
 	"runType": "schedule",
 	"schedule": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Reset%20Tenant%20Schedule_v1.json"
     },
