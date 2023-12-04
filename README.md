@@ -5,7 +5,7 @@ Qlik Cloud workshops tend to mostly have the same requirements.  With that in mi
 1) Have a Qlik Cloud Enterprise tenant that will only be used for workshops.
 2) Configure an IDP to your tenant - https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Admin/mc-create-idp-configuration.htm
 3) Identify the users that will act as administrators to the tenant and provide them with at least one of the Admin roles - https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Admin/SaaS-roles.htm
-4) In the management console, using the left hand options menu, create a new OAuth client with the client type "Web" and with "Allow machine-to-machine (M2M)" turned on.  Securely save the client key and secret key.  You will want to enable the following scopes:
+4) In the management console, using the left hand options menu, create a new OAuth client with the client type "Web" and with "Allow machine-to-machine (M2M)" turned on.  Securely save the client key and secret key, and change the consent method to "trusted".  You will want to enable the following scopes:
   - user_default
   - admin_classic
   - apps (all)
