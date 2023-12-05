@@ -1,4 +1,4 @@
-WARNING This project is community supported. This means that you should not contact Qlik Support for help with these automations. See below for additional information on how to raise issues on this repository to ask for help.
+WARNING This project is community supported. This means that you should not contact Qlik Support for help with these automations. See ![Support policy](https://github.com/adammjacobs/workshopTenant/tree/main#support-policy) for additional information on how to raise issues on this repository to ask for help.
 
 # Automated Workshop Tenant 
 Qlik Cloud workshops tend to mostly have the same requirements.  With that in mind, I have created a series of automations designed to make maintaining a workshop tenant easier.
