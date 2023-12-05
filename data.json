@@ -36,9 +36,9 @@
 	      "type": "qvd"
     },
     {
-        "name": "QlikSenseWorkshop.xlsx",
+        "name": "QlikSenseWorkShop.xlsx",
         "version": "v1",
-        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/QlikSenseWorkshop_v1.xlsx",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/QlikSenseWorkShop_v1.xlsx",
 	      "type": "xlsx"
     },
     {
