@@ -67,7 +67,9 @@ Any application in the Workshop Stage space that has already been distributed to
 ## Automations ⛓️
 The automations installed are instrumental in reducing the workload to maintain a workshop tenant and saves admins a lot of time and energy.  Here is a breakdown of those automations.
 ### Set Up Tenant ⛓️
-This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, install all the automations needed to easily maintain your tenant, and install a default workshop app (if desired) and default data files.  This can also be used to check for updated automations and default workshop apps, with the option to update or keep the existing automations/apps. \
+v3 UPDATE: installs default workshop apps and default data files. \
+
+This automation is designed to be run manually and not on a schedule because user inputs are required that can only be accomplished via a manual run.  This automation will configure your spaces, assign your admins special privileges to those spaces, install all the automations needed to easily maintain your tenant, and install default workshop apps (if desired) and default data files.  This can also be used to check for updated automations and default workshop apps, with the option to update or keep the existing automations/apps. \
 ![alt text](https://github.com/adammjacobs/workshopTenant/blob/main/setuptenant_updateavailable.png?raw=true) \
 NOTE: The user running this automation must also be the owner of all other automations below in order to avoid duplicate automations running in your environment.
 ### Reset Tenant ⛓️
