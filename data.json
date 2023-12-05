@@ -58,5 +58,17 @@
         "version": "v1",
         "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Workshop_Prediction_v1.qvd",
 	      "type": "qvd"
+    },
+    {
+        "name": "countryAliases.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/countryAliases_v1.qvd",
+	"type": "qvd"
+    },
+    {
+        "name": "countryGeo.qvd",
+        "version": "v1",
+        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/countryGeo_v1.qvd",
+	"type": "qvd"
     }
 ]
