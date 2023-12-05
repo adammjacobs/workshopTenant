@@ -10,13 +10,7 @@
         "version": "v1",
         "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Customers_v1.qvd",
 	      "type": "qvd"
-    },
-    {
-        "name": "Customers.xlsx",
-        "version": "v1",
-        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Customers_v1.xlsx",
-	      "type": "xlsx"
-    },
+    }
     {
         "name": "Employees.qvd",
         "version": "v1",
@@ -34,13 +28,7 @@
         "version": "v1",
         "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Products_v1.qvd",
 	      "type": "qvd"
-    },
-    {
-        "name": "QlikSenseWorkShop.xlsx",
-        "version": "v1",
-        "base64": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/QlikSenseWorkShop_v1.xlsx",
-	      "type": "xlsx"
-    },
+    }
     {
         "name": "Suppliers.qvd",
         "version": "v1",
