@@ -2,7 +2,7 @@
     {
         "name": "Set Up Tenant",
 	"description": "Sets up tenant with appropriate spaces, admin roles, and automations.  Will also check for new updates to configuration.",
-	"version": "v2",
-	"workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/main/Set%20Up%20Tenant_v2.json"
+	"version": "v3",
+	"workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/main/Set%20Up%20Tenant_v3.json"
     }
 ]
