@@ -1,3 +1,5 @@
+WARNING This project is community supported. This means that you should not contact Qlik Support for help with these automations. See below for additional information on how to raise issues on this repository to ask for help.
+
 # Automated Workshop Tenant 
 Qlik Cloud workshops tend to mostly have the same requirements.  With that in mind, I have created a series of automations designed to make maintaining a workshop tenant easier.
 
@@ -17,7 +19,7 @@ Qlik Cloud workshops tend to mostly have the same requirements.  With that in mi
 See https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Admin/mc-create-oauth-client.htm for more details on creating and managing OAuth clients.
 
 ## Running the "Set Up Tenant" Automation
-This automation will configure your spaces, assign your admins special privileges to those spaces, and install all the automations needed to easily maintain your tenant.  This can also be used to check for updated automations, with the option to update or keep the existing automation.  This is designed to be run manually as needed, either for initial set up or to check for updates.  Take the following steps to install the set up automation:
+This automation will configure your spaces, assign your admins special privileges to those spaces, install all the automations needed to easily maintain your tenant, install default data files for workshops, and provide you the option to automatically install default workshop applications.  This can also be used to check for updated automations/apps, with the option to update or keep the existing automation/apps.  This is designed to be run manually as needed, either for initial set up or to check for updates.  Take the following steps to install the set up automation:
 1) Download the "Set Up Tenant_v3.json"
 2) As the user who will be the tenant admin, create a new automation and choose the "Blank" template
 3) Name that automation "Set Up Tenant_v3" and click Save
@@ -100,3 +102,12 @@ Use the following as a base checklist to prep for a new workshop.
 2) Check that all necessary applications are published in "Workshop"
 3) Check that any applications from "Workshop Stage" that should be distributed to users personal spaces have the tag "distribute"
 4) Check that all data connections needed for the workshop can fetch the needed data
+
+## Support policy
+These automations are provided as-is and are not supported by Qlik. Over time, the APIs and metrics used by the automations may change, so it is advised to monitor each repository for updates, and to update the automations promptly when new versions are available.
+
+If you have issues while using these automations, support is provided on a best-efforts basis by contributors to these repositories.
+
+If you are having an issue, please email adam.jacobs@qlik.com 
+
+Thank you for your support!
