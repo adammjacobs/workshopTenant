@@ -10,8 +10,8 @@
     {
         "name": "Remove Data Files",
 	"description": "Removes any unauthorized data files every hour",
-        "version": "v1",
-        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Remove%20Data%20Files_v1.json",
+        "version": "v2",
+        "workspace": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Remove%20Data%20Files_v2.json",
 	"runType": "schedule",
 	"schedule": "https://raw.githubusercontent.com/adammjacobs/workshopTenant/autoinstalled/Remove%20Data%20Files%20Schedule_v1.json"
     },   
